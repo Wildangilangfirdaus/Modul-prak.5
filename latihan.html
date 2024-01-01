@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Membuat Form</title>
+</head>
+<body>
+    <from action=" formulir.html" method="GET">
+        
+        <div>
+            <label for="nama"> Nama </label>
+            <label style="margin-left: 54px;">:</label>
+            <input type="text" name="nama" placeholder="Masukkan Nama" />
+        </div>
+        <br>
+        
+        <div>
+            <label for="password"> Password </label>
+            <label style="margin-left: 30px;">:</label>
+            <input type="password" name="password" placeholder="Masukkan Password"/>
+        </div>
+        <br>
+
+        <div>
+            <label for="jenis_kelamin">Jenis Kelamin</label>
+            <label style="margin-left: 0px;">:</label>
+            <input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki - Laki
+            <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+        </div>
+        <br>
+            
+        <div>
+            <label for="hobi">Hobi</label>
+            <label style="margin-left: 58px;">:</label>
+            <input type="checkbox" name="hobi_baca" > Membaca Buku
+            <input type="checkbox" name="hobi_tulis" > Menulis
+            <input type="checkbox" name="hobi_mancing" > Memancing
+        </div>
+        <br>
+
+        <div>
+            <label for="asal_kota">Asal Kota</label>
+            <label style="margin-left: 23px;">:</label>
+        <select name="asal_kota" id="asal">
+            <option value="Kota Jakarta"> Jakarta</option>
+            <option>Bandung</option>
+            <option value="Kota Semarang" selected>Semarang</option>
+        </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="komentar">komentar</label>
+            <label style="margin-left: 25px;">:</label>
+            <textarea name="komentar" rows="5" cols="20">
+                Silahkan katakan isi hati anda
+            </textarea>
+        </div>
+        <br><br>
+
+        <input type="submit" value="Mulai Proses!">
+        <br>
+
+    </from>
+</body>
+</html>

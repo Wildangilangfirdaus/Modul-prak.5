@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Klinik sehat</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>FORMULIR PENDAFTARAN PASIEN KLINIK SEHAT PANESEA MEDIKA </h1>
+</head>
+<body>
+    <form action="Formulir_kliniksehat.html" method="get">
+        
+        <div>
+            <label for="nama"> Nama </label>
+            <!-- <label style="margin-left: 55px;">:</label> -->
+            <input type="text" name="nama" placeholder="Masukkan Nama" />
+        </div>
+        <br>
+
+        <div>
+            <label for="email"> Email </label>
+            <!-- <label style="margin-left: 57px;">:</label> -->
+            <input type="text" name="email" placeholder="Masukkan Email" />
+        </div>
+        <br>
+
+        <div>
+            <label for="password"> Password </label>
+            <!-- <label style="margin-left: 30px;">:</label> -->
+            <input type="password" name="password" placeholder="Masukkan Password"/>
+        </div>
+        <br>
+
+        <div>
+            <label for="tempat_tanggal_lahir">TTL</label>
+            <!-- <label style="margin-left: 66px;">:</label> -->
+            <input type="text" name="ttl" placeholder="Masukkan Tempat Tanggal Lahir" />
+        </div>
+        <br>
+
+        <div>
+            <label for="tempat_tanggal_lahir">Umur</label>
+            <!-- <label style="margin-left: 66px;">:</label> -->
+            <input type="text" name="ttl" placeholder="Masukkan umur" />
+        </div>
+        <br>
+
+        <div>
+            <label for="jenis_kelamin">Jenis Kelamin</label>
+            <br>
+            <!-- <label style="margin-left: 10px;"> :</label> -->
+            <input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki - Laki
+            <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+        </div>
+        <br>
+
+        <div>
+            <label for="alamat"> Alamat </label>
+            <!-- <label style="margin-left: 50px;">:</label> -->
+            <textarea name="alamat" rows="5" cols="22" placeholder="Masukkan Alamat"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="status_pernikahan">Status Pernikahan</label>
+            <!-- <label style="margin-left: 10px;">:</label> -->
+            <select name="status pernikahan" id="pernikahan">
+                <option value="Menikah">Menikah</option>
+                <option value="Belum Menikah">Belum Menikah</option>
+                <option value="Duda/Janda">Duda/Janda</option>
+            </select>
+
+        </div>
+        <br>
+
+        <div>
+            <label for="pekerjaan">Pekerjaan</label>
+            <!-- <label style="margin-left: 30px;"> :</label> -->
+            <input type="text" name="pekerjaan" /> 
+        </div>
+        <br>
+
+        <div>
+            <label for="Setelah data terisi klik setuju lalu daftar">Setelah data terisi klik setuju lalu daftar</label>
+            <br>
+            <!-- <label style="margin-left: 60px;">:</label> -->
+            <input type="checkbox" name="Setuju" > Setuju
+        </div>
+        <br><br>
+
+        <input type="submit" value="DAFTAR!">
+        <br>
+    </form>
+</body>
+</html>
